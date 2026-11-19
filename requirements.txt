@@ -1,0 +1,9 @@
+torch
+torchvision
+transformers
+gradio>=4.44,<5
+datasets
+pillow
+numpy<2
+huggingface_hub<0.26
+pydantic==2.10.6
