@@ -10,6 +10,13 @@ Upload a photo of a clothing item and StyleScout tells you:
 
 It also rejects photos that aren't fashion.
 
+## See it work
+
+- **Try it live:** https://309fe452038730fd17.gradio.live
+  This link is served from a running Colab notebook, so it only works while that notebook is running. Gradio share links also expire after about 72 hours. If it's down, use the Colab notebook below.
+- **Run it yourself in Colab:** [Open the notebook](https://colab.research.google.com/drive/17PFHs5R4aSpmiYrGCA4NitYhHZtYxFx_)
+  Choose **Runtime → Change runtime type → T4 GPU**, then **Runtime → Run all**. After about 10 minutes, click the `gradio.live` link at the bottom of the output to open your own copy of the app.
+
 ## How it works
 
 1. **CLIP** (`openai/clip-vit-base-patch32`, PyTorch) turns every image into a 512-d embedding.
